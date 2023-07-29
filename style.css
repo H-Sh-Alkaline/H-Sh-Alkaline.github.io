@@ -1,0 +1,64 @@
+#title{
+    border-bottom:1px gray solid;
+    display:grid;
+    grid-template-columns:170px 1fr;
+}
+#center{
+  display:grid;
+  grid-template-columns:300px 1fr;
+}
+h1 {
+  font:40px 나눔스퀘어라운드 Light;
+  margin-top:60px;
+  margin-left:10px;
+}
+a {
+  font:25px 나눔스퀘어라운드;
+  color:black;
+  text-decoration: none;
+}
+h2 {
+  font:200% 나눔스퀘어라운드;
+}
+#indexUl{
+  border-right:1px gray solid;
+  width:250px;padding-top:0;
+}
+
+
+@font-face {
+    font-family: '나눔스퀘어라운드 Light';
+    src: url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.eot');
+    src: url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.woff2') format('woff2'),
+         url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.woff') format('woff'),
+         url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.ttf') format('truetype'),
+         url('/font/nanumsquareroundlight/nanumsquareroundl-webfont.svg#nanumsquareroundlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old London';
+    src: url('/font/oldlondon/oldlondon-webfont.eot');
+    src: url('/font/oldlondon/oldlondon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/oldlondon/oldlondon-webfont.woff2') format('woff2'),
+         url('/font/oldlondon/oldlondon-webfont.woff') format('woff'),
+         url('/font/oldlondon/oldlondon-webfont.ttf') format('truetype'),
+         url('/font/oldlondon/oldlondon-webfont.svg#old_londonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: '나눔스퀘어라운드';
+    src: url('/font/nanumsquareround/nanumsquareroundr-webfont.eot');
+    src: url('/font/nanumsquareround/nanumsquareroundr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/nanumsquareround/nanumsquareroundr-webfont.woff2') format('woff2'),
+         url('/font/nanumsquareround/nanumsquareroundr-webfont.woff') format('woff'),
+         url('/font/nanumsquareround/nanumsquareroundr-webfont.ttf') format('truetype'),
+         url('/font/nanumsquareround/nanumsquareroundr-webfont.svg#nanumsquareroundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
